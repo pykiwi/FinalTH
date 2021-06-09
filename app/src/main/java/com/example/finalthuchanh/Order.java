@@ -1,7 +1,7 @@
 package com.example.finalthuchanh;
 
 public class Order {
-    private String id;
+    private int id;
     private String product;
     private String customerName;
     private String address;
@@ -15,7 +15,7 @@ public class Order {
         this.address = address;
         this.customerPhoneNumber = customerPhoneNumber;
         this.customerEmail = customerEmail;
-        COD = cod;
+        this.COD = cod;
     }
     public Order(){
 
@@ -68,11 +68,11 @@ public class Order {
         this.COD = COD;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 
